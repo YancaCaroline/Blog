@@ -1,0 +1,136 @@
+body{
+    background: #F2F2F2;
+}
+
+.main {
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-bottom: 149px;
+    padding: 0px 25px;
+    position: relative;
+    width: 100%;    
+}
+
+.texto{
+    background-color: #FAFAFA;
+    bottom: 0\px;
+    height:auto;
+    left: 0px;
+    position: absolute;
+    width: 445px;
+}
+
+.texto p{
+    color: #33323D;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.button-section{
+    border-width: 0;
+    background-color: #203A4C;
+    color: #FAFAFA;
+    height: auto;
+    line-height: 0;
+    padding-left: 0;
+    padding-right: 25px;
+    width: 150px;
+
+}
+
+.button-section > img{
+    background-color: #0f2432;
+    margin-right: 20px;
+    margin-left: 0;
+    padding: 15px 15px;
+}
+
+.button-section > h6{
+    font-family: "Public Sans" , "sans-serif";
+    font-weight: 400px;
+    line-height: 10px;
+
+}
+
+ .sobre {
+     font-size: 8pt;
+     margin-bottom: 10px;
+     padding-bottom: 5px;
+ }
+
+ .bloco{
+     width: 50%;
+
+ }
+
+ .center-flex{
+     justify-content: center;
+ }
+ 
+
+.image-profile{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    width:80%;
+}
+
+.divisor{
+    background-color: #00000020;
+    height: 1px;
+    width:auto;
+}
+
+ .sobre-mim{
+    height: 568px;
+    padding-left: 165px;
+    padding-right: 165px;
+    width: 430px;    
+ }
+
+ .sobre-mim h1{
+    color: #33323D;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+ }
+
+ .sobre-mim p{
+    color: #33323D;
+    font-family: "Public Sans" , "sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 28px;
+    padding-bottom: 24px;
+ }
+
+.portfolio {
+     border: solid 1px black;
+     color: #33323D;
+     font-family: 'Public Sans';
+     font-weight: 400;
+     font-size: 12px;
+     padding: 17px 28px;
+     text-decoration: none;     
+ }
+
+.projeto {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 33px;
+    width: 100%;
+}
+
+.projeto a{
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-size: 12px;
+    color: #33323D;
+    padding: 17px 47px;
+    border: 1px solid black;
+}

@@ -1,0 +1,49 @@
+body{
+    background: #F2F2F2;
+}
+
+header{
+    display: flex;
+}
+
+.space{
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+li{
+    padding-left: 42px;
+}
+
+.row-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+}
+
+.row-flex p{
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 40px;
+    color: #33323D;
+}
+
+.section p{
+    color: #33323D;
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 45px;
+}
+
+.rodape{
+    background: #33323D;
+    
+}

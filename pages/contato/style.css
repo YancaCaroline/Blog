@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;    
+}
+
+.principal{
+    display:flex;
+
+}
+.main-texto2{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display:flex;
+    height: 100%;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 35px;
+    padding-bottom: 40px;
+}
+
+.titulo{
+    padding-top: 48px;
+    text-align: center;
+    width: 40%;
+}
+
+.titulo h1 {
+    color: #33323D;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700px;
+    font-size: 40px;    
+}
+
+.texto{
+    color: #33323D;
+    display: flex;
+    flex-direction: column;
+    font-family: "Public Sans" , "sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 30px;
+    width:60%;
+}
+
+.icones img{
+    padding-top: 54px;
+    padding-bottom: 48px;
+}
+
+.master{
+    display: flex;
+}
+
+.formulario{
+    display:flex;
+    flex-direction: column;
+    padding-top: 48px;
+    width:60%;    
+}
+
+.formulario input{
+    background: #33323D;
+    height: 48px;
+    margin-bottom: 24px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    width: 635px;
+}
+
+.formulario .mensagem{
+    height: 96px;
+    width: 635px;    
+}
+
+.formulario label{
+    margin-bottom: 8px;
+}
+
+a{
+    background: #203A4C;
+    color: #FFFFFF;
+    height: 48px;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 109px;
+    padding: 17px 24px;
+    text-align: center;
+    width: 200px;  
+}

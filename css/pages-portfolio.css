@@ -1,0 +1,154 @@
+.principal-manage{
+    display:flex;
+    padding-top: 115px;
+}
+
+.previews-foto{
+    margin-bottom: 32px;
+}
+
+.img-manage img{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width:100%;
+}
+
+.projeto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.projeto p{
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 40px;
+    color: #33323D;
+}
+
+.main-texto{
+    height: 100%;
+    width: 350px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 35px;
+}
+
+.main-texto::before{
+        content: "";
+        border: 1px solid black;
+        position: relative;
+        width: 350px;
+        opacity: 0.15;
+        top: -6px;
+        display: block;
+}
+
+.main-texto::after{
+    content: "";
+    border: 1px solid black;
+    position: relative;
+    width: 350px;
+    opacity: 0.15;
+    display: block;
+    bottom: -108px;
+}
+
+.manage{
+    height:400px;
+    width:350px;
+}
+
+.manage h1{
+    font-family: 'Ibarra Real Nova';
+    font-weight: 700;
+    font-size: 40px;
+    color: #33323D;
+}
+
+.manage p{
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #33323D;
+}
+
+.manage label{
+    font-family: 'Public Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #5FB4A2;
+    padding-bottom: 16px;
+}
+
+.manage span{
+    font-family: 'Public Sans';
+    font-weight: 700;
+    font-size: 16px;
+    color: #5FB4A2;
+}
+
+.ferramentas{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.flex-column{
+    height: 1192px;
+    width:635px;
+}
+
+.texto h1{
+    font-family: 'Ibarra Real Nova';
+    font-weight: 400;
+    font-size: 32px;
+    color: #33323D;
+}
+
+.texto p{
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 15px;
+    color: #33323D;
+}
+
+.previews img{
+    height: 400px;
+    width:635px;
+}
+
+a{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 17px 60px;
+    text-decoration: none;
+    background:#FFFFFF;
+    color: #33323D;
+
+}
+
+.fylo{
+    display: flex;
+    justify-content: space-between;
+    width:1110px;
+    margin-bottom: 100px;
+    border-top: 1px solid #33323D;
+    border-bottom: 1px solid #33323D;
+    padding: 32px 0px;
+}
+
+.fylo h1{
+    font-family: 'Ibarra Real Nova';
+    font-weight: 400;
+    font-size: 32px;
+    color: #33323D;
+}
+
+.fylo span{
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #33323D;
+}
