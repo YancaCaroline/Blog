@@ -62,7 +62,7 @@
     width: 100%;
 }
 
-a{
+.projeto a {
     border: 1px solid black;
     color: #33323D;
     text-decoration: none;
@@ -70,5 +70,9 @@ a{
     font-weight: 400;
     font-size: 12px;
     padding: 17px 38px;
+}
 
+a {
+     text-decoration: none;
+    color: black;
 }
