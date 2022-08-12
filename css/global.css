@@ -47,3 +47,21 @@ li{
     background: #33323D;
     
 }
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.enviar{
+    background: #203A4C;
+    color: #FFFFFF;
+    height: 48px;
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 109px;
+    padding: 17px 24px;
+    text-align: center;
+    width: 200px;  
+}

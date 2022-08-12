@@ -62,7 +62,7 @@
     width: 100%;
 }
 
-.projeto a {
+.btn {
     border: 1px solid black;
     color: #33323D;
     text-decoration: none;
@@ -72,7 +72,7 @@
     padding: 17px 38px;
 }
 
-a {
+.link {
      text-decoration: none;
     color: black;
 }
